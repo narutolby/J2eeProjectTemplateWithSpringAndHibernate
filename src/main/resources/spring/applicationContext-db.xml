@@ -40,7 +40,7 @@
                 <prop key="hibernate.cache.use_second_level_cache">true</prop>
 			</props>
 		</property>
-		<!--<property name="packagesToScan" value="com.bupt.pcncad.domain" />-->
+		<property name="packagesToScan" value="com.bupt.pcncad.domain" />
 	</bean>
     <bean id="txManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory" />
